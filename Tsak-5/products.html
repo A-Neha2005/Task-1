@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Products</title>
+  <link rel="stylesheet" href="CSS/style.min.css">
+</head>
+<body>
+  <h2>Product List</h2>
+  <select onchange="filterProducts(this.value)">
+    <option value="all">All</option>
+    <option value="electronics">Electronics</option>
+  </select>
+  <ul id="productList"></ul>
+</body>
+<script src="JavaScript/script.min.js"></script>
+</html>
